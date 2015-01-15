@@ -24,6 +24,7 @@ NFC-Handset-Requirements-Public +
                                 |                                                   +- NfcController.java
                                 |
                                 +- OtherOS -+
+                                +- AndOnotherOS -+
 ```
 
 ## Participation Rules ##
