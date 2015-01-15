@@ -4,6 +4,29 @@ This repository contains API documentation relating to the GSMA NFC Handset Requ
 
 Each mobile OS has its API stored under a separate directory, which allows for future expansion of API definitions for platforms other than Android.
 
+Under the root directory, you should see the appropriate file structure for aech mobile OS platform, as shown below, 
+for the case of a Java-based platform such as Android:
+
+```
+NFC-Handset-Requirements-Public +
+                                |
+                                +- Android -+
+                                |           |
+                                |           +- com -+
+                                |                    |
+                                |                    +- gsma -+
+                                |                             |
+                                |                             +- services -+
+                                |                                           |
+                                |                                           +- nfc -+
+                                |                                                   |
+                                |                                                   +- SEController.java
+                                |                                                   +- NfcController.java
+                                |
+                                +- OtherOS -+
+                                +- AndOnotherOS -+
+```
+
 ## Participation Rules ##
 
 As a contributor to this effort, you are required to make a full contribution under the Apache 2 license (there is a copy in the file LICENSE in this directory). You are also required to add your copyright to any file you contribute or modify.
